@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'League Gothic', sans-serif;
+}
+
+.navbar{
+ overflow: hidden;
+ background-color:rgba(108, 240, 72, 0.959);
+ 
+}
+.navbar .logo img{
+  height: 80px;
+  width: 80px;
+  float: left;
+  margin:13px 0px 0px 30px;
+  border-radius: 50px;
+  border-radius: 52px;
+  border: 2px solid;
+}
+.navbar ul{
+  list-style: none;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+}
+.navbar ul li{
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px;
+  font-weight: 700;
+  font-size: large;
+  padding-top:26px ;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.Homebtn{
+  padding: 2px;
+  border-radius: 5px;
+  font-family: 'League Gothic', sans-serif;
+  width: 40px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+.Projectbtn{
+  padding: 2px;
+  border-radius: 5px;
+  font-family: 'League Gothic', sans-serif;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.Homebtn:hover{
+  background-color: rgb(255, 255, 255);
+}
+.Projectbtn:hover{
+  background-color: rgb(252, 250, 247);
+}
+
+.navbar ul li a:hover{
+  color:rgb(194, 169, 23);
+}
+
+.para{
+  font-family:sans-serif;
+}
+.heading{
+  text-decoration: underline;
+  color: rgb(202, 107, 5);
+}
+.bulb {
+  text-align: center;
+}
+.bulb h2 {
+  text-align: center;
+  font-family: 'League Gothic', sans-serif;
+  text-decoration: underline;
+  padding: 25px;
+  color: rgb(202, 107, 5);
+}
+.container {
+  text-align: center;
+  font-family: 'League Gothic', sans-serif;
+  padding: 40px;
+}
+
+.Button{
+  padding: 36px;
+}
+.Button1{
+  padding: 10px !important;
+  margin: 35px;
+}
+
+footer{
+  height: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  clear: both;
+  padding: 26px 0px;
+  line-height: 23px;
+  background-color: #272727;
+  
+}
+
+.icons{
+  padding: 20px;
+}
+.icons .socialicon{
+  padding-top: 9px;
+  height:30px;
+  width:30px;
+  text-decoration: none;
+  overflow: hidden;
+  color:rgb(21, 21, 235);
+  background-color: white;
+
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+   border-radius:5px;
+   height:20px;
+   width:20px;
+}
+.fa-github {
+  background: #3B5998;
+  color: white;
+   border-radius:5px;
+   height:20px;
+   width:20px;
+}
+.fa-instagram {
+  background: #3B5998;
+  color: white;
+   border-radius:5px;
+   height:20px;
+   width:20px;
+}
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+   border-radius:5px;
+   height:20px;
+   width:20px;
+}
+
