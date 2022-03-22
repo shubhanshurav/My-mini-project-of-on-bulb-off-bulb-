@@ -13,7 +13,7 @@ body {
 
 .navbar{
  overflow: hidden;
- background-color:#272727;
+ background-color:rgba(108, 240, 72, 0.959);
  
 }
 .navbar .logo img{
